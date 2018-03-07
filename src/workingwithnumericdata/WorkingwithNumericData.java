@@ -18,7 +18,7 @@ public class WorkingwithNumericData {
         DecimalFormat x = new DecimalFormat ("##.##"); // Creates a new decimal format called x
         
         System.out.println("Restaurant Bill");// Prints Restaurant Bill to the screen
-        System.out.println("_______________");// Prints Underscore to the screen
+        System.out.println("_______________");// Prints Underscores to the screen
         
         System.out.println("Meal: " + bill); // Prints Meal: and the value that is stored in bill
         System.out.println("HST:  " + x.format(hst)); // Prints HST: and the value that is stored in hst and formatted to two decimal spaces 
